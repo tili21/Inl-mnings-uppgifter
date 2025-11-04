@@ -1,14 +1,18 @@
 ﻿using System;
 
-namespace TEST2
+namespace Uppgift_2_1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Du är nästan klar med kapitel 1.");
-            Console.WriteLine("Du har lärt dig skriva ut tecken som \" och \\.");
+            Console.Write("Vilken är din favoritbok? ");
+            Console.WriteLine("Din favoritbok är");
+            string favoritbok = Console.ReadLine();
+
+
+
+
         }
     }
 }
-
